@@ -6,7 +6,7 @@ function Header() {
         <nav className='navbar navbar-expand-sm bg-dark navbar-dark'>
                 <div className='container-fluid'>
                     <div className="navbar-header">
-                        Tutorials4U
+                        <h1>Tutorials4U</h1>
                         {/* <Link className="navbar-brand" to="/"><h1>Twitchy</h1></Link> */}
                     </div>
                     
