@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './css/Header.css'
+
 
 function Header() {
     return (
-        <nav className='navbar navbar-expand-sm bg-dark navbar-dark'>
+        <nav className='navbar navbar-expand-sm navbar-dark'>
                 <div className='container-fluid'>
                     <div className="navbar-header">
-                        <h1>Tutorials4U</h1>
-                        {/* <Link className="navbar-brand" to="/"><h1>Twitchy</h1></Link> */}
+                        <Link className="navbar-brand" to="/"><h1>Resources4U</h1></Link>
                     </div>
                     
                     {/* <ul className="navbar-nav">
