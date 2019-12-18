@@ -10,16 +10,24 @@ class Home extends React.Component {
                 <div className='container content-grid'>
                     <div className='row'>
                         <div className='col-12 col-sm-4'>
-                            <Card title='Books' />
+                            <Card 
+                                title='Books'
+                                img='book.jpg'/>
                         </div>
                         <div className='col-12 col-sm-4'>
-                            <Card title='Question Papers'/>
+                            <Card 
+                                title='Question Papers'
+                                img='exam.jpg'/>
                         </div>
                         <div className='col-12 col-sm-4'>
-                            <Card title='Notes'/>
+                            <Card 
+                                title='Notes'
+                                img='notes.jpg'/>
                         </div>
                         <div className='col-12 col-sm-4'>
-                            <Card title='Practicals'/>
+                            <Card 
+                                title='Practicals'
+                                img='computer.jpg'/>
                         </div>
                     </div>
                 </div>
