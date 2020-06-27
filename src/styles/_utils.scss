@@ -1,0 +1,8 @@
+@mixin set-gradient ($primary-color, $secondary-color, $width) {
+    background-color: transparent;
+    border-width: $width;
+    border-style: solid;
+    border-color: transparent;
+    border-image: linear-gradient(-45deg, $primary-color, $secondary-color);
+    border-image-slice: 1;
+}
