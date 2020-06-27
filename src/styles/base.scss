@@ -25,6 +25,8 @@ body {
 .btn {
     background-color: transparent;
     color: $secondary-color;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .btn-gradient {
     @include set-gradient($font-green, $font-dark, 4px);
