@@ -2,7 +2,7 @@ import React from 'react'
 
 import './css/Footer.css'
 
-function Footer(props) {
+function Footer() {
     return (
         <footer className="footer align-items-center">
             <div className='row'>
